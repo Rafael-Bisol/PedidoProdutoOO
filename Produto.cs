@@ -16,7 +16,7 @@ namespace PedidoProdutoOO
                 else if (quant >= 21 && quant <= 50)
                     valor -= valor * 20/100;
                 else if (quant > 50)
-                    valor -= valor *= 25/100;
+                    valor -= valor * 25/100;
                 
                 return valor;
             }
