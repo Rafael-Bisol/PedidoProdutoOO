@@ -10,11 +10,11 @@ namespace PedidoProdutoOO
 
             Console.WriteLine("Pedido de um produto");
             Console.Write("Digite o nome do produto: ");
-            produto.nome = Console.ReadLine();
+            produto.Nome = Console.ReadLine();
             Console.Write("Digite o preço unitário do produto: ");
-            produto.preco = double.Parse(Console.ReadLine());
+            produto.Preco = double.Parse(Console.ReadLine());
             Console.Write("Digite a quantidade comprada: ");
-            produto.quant = int.Parse(Console.ReadLine());
+            produto.Quant = int.Parse(Console.ReadLine());
             
             Console.WriteLine($"O valor total do produto é {produto.valorTotal:c}");
         }

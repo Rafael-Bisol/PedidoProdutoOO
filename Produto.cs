@@ -2,11 +2,11 @@ namespace PedidoProdutoOO
 {
     public class Produto
     {
-        public string nome;
-        public double preco;
-        public int quant;
+        public string Nome;
+        public double Preco;
+        public int Quant;
 
-        public double valorTotal
+        public double ValorTotal
         {
             get
             {
