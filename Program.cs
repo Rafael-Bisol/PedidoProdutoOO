@@ -16,7 +16,7 @@ namespace PedidoProdutoOO
             Console.Write("Digite a quantidade comprada: ");
             produto.Quant = int.Parse(Console.ReadLine());
             
-            Console.WriteLine($"O valor total do produto é {produto.valorTotal:c}");
+            Console.WriteLine($"O valor total do produto é {produto.ValorTotal:c}");
         }
     }
 }
