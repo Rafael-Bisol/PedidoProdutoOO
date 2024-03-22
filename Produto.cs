@@ -36,5 +36,9 @@ namespace PedidoProdutoOO
         public Produto(string nome, double preco, int quant) : this(nome, preco) {
             Quant = quant;
         }
+        public override string ToString()
+        {
+            return $"Nome: {Nome}\nPreço: {Preco}\nQuantidade: {Quant}";
+        }
     }
 }
