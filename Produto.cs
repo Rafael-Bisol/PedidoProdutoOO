@@ -21,5 +21,20 @@ namespace PedidoProdutoOO
                 return valor;
             }
         }
+
+        public Produto() {
+            Nome = "";
+            Preco = 0;
+            Quant = 0;
+        }
+        public Produto(string nome) {
+            Nome = nome;
+        }
+        public Produto(string nome, double preco) : this(nome) {
+            Preco = preco;
+        }
+        public Produto(string nome, double preco, int quant) : this(nome, preco) {
+            Quant = quant;
+        }
     }
 }
